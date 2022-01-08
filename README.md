@@ -1,8 +1,8 @@
 # Personal Budget Zen Automations
 
-[![](https://github.com/BrunoBernardino/budgetzen-web/workflows/Run%20Prettier/badge.svg)](https://github.com/BrunoBernardino/budgetzen-web/actions?workflow=Run+Prettier)
+[![](https://github.com/BrunoBernardino/budgetzen-automations/workflows/Run%20Prettier/badge.svg)](https://github.com/BrunoBernardino/budgetzen-automations/actions?workflow=Run+Prettier)
 
-Since [Budget Zen 2.0 is end-to-end encrypted](https://budgetzen.net), automations need to be executed from the browser (there's no longer a backend API to call). This is how you can run something easy to automatically add expenses every month.
+Since [Budget Zen 2.0 is end-to-end encrypted](https://budgetzen.net), automations need to be executed from the browser (there's no longer a backend API to call). This is how you can run something easily to automatically add expenses every month.
 
 When you run this, it all happens via a local install of [Cypress](https://cypress.io) and never leaves your compuer.
 
