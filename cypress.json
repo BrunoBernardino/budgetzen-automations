@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://app.budgetzen.net",
+  "screenshotOnRunFailure": false,
+  "videoUploadOnPasses": false,
+  "video": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "budgetzen-automations",
+  "version": "1.0.0",
+  "description": "Personal automations for Budget Zen",
+  "main": "index.ts",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run",
+    "prettier": "prettier --write .",
+    "prettier/check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrunoBernardino/budgetzen-automations.git"
+  },
+  "keywords": [
+    "budget",
+    "zen",
+    "automations"
+  ],
+  "author": "Bruno Bernardino <me@brunobernardino.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BrunoBernardino/budgetzen-automations/issues"
+  },
+  "homepage": "https://github.com/BrunoBernardino/budgetzen-automations#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/luxon": "2.0.8",
+    "cypress": "9.2.0",
+    "luxon": "2.3.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.4"
+  }
+}
