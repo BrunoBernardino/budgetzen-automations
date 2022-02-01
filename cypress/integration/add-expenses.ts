@@ -18,8 +18,12 @@ describe('Add Expenses', () => {
     for (const expense of expenses) {
       cy.get(element('add-expense-cost')).type(expense.cost.toString());
       cy.get(element('add-expense-description')).type(expense.description);
-      cy.get(element('add-expense-budget')).select(expense.budget);
-      cy.get(element('add-expense-date')).type(expense.date);
+      if (expense.budget) {
+        cy.get(element('add-expense-budget')).select(expense.budget);
+      }
+      if (expense.date) {
+        cy.get(element('add-expense-date')).type(expense.date);
+      }
       cy.get(element('add-expense-button')).click();
     }
   });
