@@ -13,6 +13,7 @@ describe('Add Expenses', () => {
     cy.get(element('login-button')).click();
 
     // Login is especially slow
+    cy.wait(2000);
     cy.get(element('add-expense-button'), { timeout: 10000 });
 
     for (const expense of expenses) {
@@ -25,6 +26,8 @@ describe('Add Expenses', () => {
         cy.get(element('add-expense-date')).type(expense.date);
       }
       cy.get(element('add-expense-button')).click();
+
+      cy.wait(500);
     }
   });
 });
